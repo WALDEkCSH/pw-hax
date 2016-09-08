@@ -1,0 +1,135 @@
+# CSH External VIP Project
+# WALDEk @ CSHacked.pl
+
+
+[ #INFO ]
++ Czita nikomu nie udostêpniamy. Jeœli siê taka sytuacja zdarzy, dany u¿ytkownik dostanie peramentalnego bana.
++ Wszystkie b³êdy i sugestie mo¿na zg³aszaæ pisz¹c na forum czita / w prywatnej wiadomoœci na CSHacked / na pocztê.
+
+
+[ #JAK U¯YÆ? ]
++ Usuñ przestarza³¹ wersjê czita z komputera (jeœli takow¹ posiadasz).
++ Wklej pliki w bezpieczne miejsce np. za³ó¿ folder Windows na dowolnej partycji i wklej tam wszystkie pliki.
++ [OPCJONALNE] Zmieñ nazwê czita na w³asn¹.
++ W³¹cz CS:GO.
++ W³¹cz czita.
++ Przed wy³¹czeniem gry wy³¹cz czita! Domyœlnie przyciskiem HOME.
+
+[ #PLIKI KONFIGURACJNE ]
++ Plik Glowne.ini - g³ówne ustawienia czita.
+++ Plik AsystentStrzelania.ini - ustawienia zwi¹zane z funkcj¹ Asystent strzelania.
+++ Plik AutomatyczneNacelowywanie.ini - ustawienia zwi¹zane z funkcj¹ Automatyczne nacelowywanie.
+++ Plik AutoStrzal.ini - ustawienia zwi¹zane z funkcj¹ Automatycznym strza³em.
+++ Plik Zmieniarka.ini - ustawienia zwi¹zane z funkcj¹ Zmierniarki skinów/odznaki/poziomu.
+++ Plik Kolory.ini - ustawienia kolorów w czicie.
+
+
+[ #DODATKOWE WYMAGANIA ]
++ Zainstalowany najnowszy NET Framework (przewa¿nie i tak instaluje siê wraz z CS:GO).
++ Wy³¹czony anty wirus (lub dodany czit do wyj¹tków).
+
+
+[ #DODATKOWE WYMAGANIA DLA FUNKCJI DZIA£AJ¥CYCH W TRYBIE OKIENKOWYM ]
++ W³¹czona kompozycja w systemie Windows Aero.
++ W³¹czona gra w trybie "W oknie" b¹dŸ "Pe³ny ekran, w oknie".
+
+
+[ # DLACZEGO ŒCI¥GNIÊTY CZIT NIE DZIA£A? ]
++ Jeœli proces czita w ogóle siê nie uruchamia (nie jest pokazany na pasku zadañ), a w³¹cza³eœ go zgodnie z instrukcj¹, to mo¿liwe, ¿e:
+++ skoñczy³a siê subskrypcja czita,
+++ antywirus blokuje czita,
+++ nie wypakowa³eœ czita z archiwum,
+++ wypakowane pliki nie znajduj¹ siê w jednym folderze,
+++ poda³eœ z³e HWID b¹dŸ zmieni³o Ci siê poprzez zmianê systemu b¹dŸ podzespo³ów komputera,
+++ z³a konfiguracja czita (jakieœ dodatkowe znaczki w pliku konfiguracyjnym, brakuj¹ce ustawienia itp).
+
++ Jeœli proces czita siê uruchamia (jest pokazany na pasku zadañ), a nie widaæ oznak dzia³ania w grze, to mo¿liwe, ¿e:
+++ by³a aktualizacja gry i funkcje czita nie dzia³aj¹,
+++ w³¹czy³eœ funkcje wizualne dla trybu okienkowego, a nie spe³ni³eœ dla nich wymagañ (w³¹czona kompozycja Windows Aero oraz w³¹czona gra w trybie "W oknie" b¹dŸ "Pe³ny ekran, w oknie").
+
+
+[ # U¯YCIE FUNKCJI DO POMOCY W STRZELANIU ]
++ Aby unikn¹æ dziwnych zjawisk typu: trzêsienie celownikiem, nierówne strza³y itp. zaleca siê granie na jednym z poni¿szych funkcji do pomocy w strzelaniu:
+++ Automatyczne nacelowywanie,
+++ Asystent strzelania,
+++ Kontrola rozrzutu.
+
++ Wy¿ej wymienione funkcje mo¿na spokojnie ³¹czyæ, jeœli ka¿da jest pod innym przyciskiem i nie korzystamy z nich równoczeœnie.
+
+
+[ # ZMIENIARKA SKINÓW ]
++ Zmieniarka skinów w czicie zmienia skin na broni, któr¹ trzymamy w rêce.
++ Podczas zmiany skina pojawia siê lag, który oznacza aktualizacje skinu na broni.
++ Zmieniarka ¿¹da pe³nej aktualizacji gry, dlatego na s³abszych komputerach mo¿e crashowaæ grê.
++ Aby nie odczuæ lagu w trakcie rozgrywki, najlepiej patrzeæ siê w ziemiê lub w œcianê.
+
+
+[ # DLACZEGO CRASHUJÊ MI GRÊ LUB CZITA? ]
++ Jeœli grasz w trybie "Pe³ny ekran" wy³¹cz wszystkie dostêpne funkcje dla trybu okienkowego.
+
++ Najczêœciej u graczy z czitem crashe powoduj¹ funkcje:
+++ Spowolnienie,
+++ Zmieniarka skinów (np. przez s³aby komputer),
+++ Pseudonim.
+
+
+[ # DLACZEGO FUNKCJE WIZUALNE DZIA£AJ¥ DOPIERO WTEDY, KIEDY JESTEŒMY BLISKO WROGA?  ]
++ Z dniem 15 maja zosta³a wprowadzona aktualizacja na serwerach turniejowych, która pobiera informacje do klienta dopiero wtedy, gdy jest blisko nas.
+++ Wideo: https://www.youtube.com/watch?v=MO-AeLTEiv0
+
+
+[ #DOMYŒLNE KLAWISZE ]
++ Asystent strzelania: LEWY PRZYCISK MYSZKI
++ Automatyczne nacelowywanie: LEWY PRZYCISK MYSZKI oraz ALT
++ Auto strza³: ŒRODKOWY PRZYCISK MYSZKI
++ Króliczy skok: SPACJA
++ Zmieniarka skinów: F11
++ Wy³¹cznik czita: HOME
++ Wy³¹cznik funkcji: INSERT
++ Funkcje na przycisk: DODATKOWY PRZYCISK MYSZKI – [ MOUSE 4 ]
+
+
+[ #OPTYMALIZACJA USTAWIEÑ POD CZITA ]
++ Ustawienie w opcjach gry wymagañ wideo na najni¿sze.
++ Ustawienie w opcjach gry funkcji "Tryb antyaliasingu" na ¯ADEN, oraz "Tryb filtrowania tekstur" na DWULINIOWE.
++ Wy³¹czenie w opcjach gry funkcji "Renderowanie wielordzeniowe", "Czekaj na synchronizacjê pionow¹", "Antyaliasing FXAA" i "Rozmycie".
++ Ustawienie mniejszej rozdzielczoœci na pulpicie, podczas gdy gramy z funkcj¹ "Pe³ny ekran, okno" w grze.
++ Wy³¹czenie zbêdnych procesów typu: przegl¹darka, GG, Skype itp.
+
+
+[ #OBS£UGIWANE SYSTEMY ]
++ Windows Vista
++ Windows 7
++ Windows 8 / 8.1
++ Windows 10
+
+
+[ #POMOCNE ADRESY ]
++ Status czita
+++ http://www.waldek.net.pl/status/
+
++ Lista klawiszy
+++ http://www.waldek.net.pl/klawisze/
+
++ Lista kolorów 
+++ http://www.waldek.net.pl/kolory/
+
++ Lista skinów
+++ http://www.waldek.net.pl/skiny/
+
++ Lista poziomów
+++ http://www.waldek.net.pl/lista-poziomow/
+
++ Lista odznak
+++ http://www.waldek.net.pl/lista-odznak/
+
++ Wykaz koœci
+++ http://www.waldek.net.pl/kosci/
+
+
+[ #KONTAKT ]
++ Prywatna wiadomoœæ na forum
+++ http://www.cshacked.pl/waldek-m4/
+
++ Poczta
+++ waldek@cshacked.pl
